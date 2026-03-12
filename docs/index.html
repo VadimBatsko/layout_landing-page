@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang=en class=page><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><link rel=icon type=image/x-icon href=logo-4x.5b9f78de.png><link rel=stylesheet href=layout_landing-page.e6309441.css><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel=stylesheet><title>B&amp;O</title><body class=page__body>
+<!DOCTYPE html><html lang=en class=page><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><link rel=icon type=image/x-icon href=logo-4x.5b9f78de.png><link rel=stylesheet href=layout_landing-page.e070ed98.css><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel=stylesheet><title>B&amp;O</title><body class=page__body>
     <header class=header>
       <div class=container>
         <div class=header__content>
@@ -105,32 +105,32 @@
           </section>
         </div>
         <div class=container>
-          <section class=categories id=categories>
-            <h2 class=section-title>
+          <section class=category id=categories>
+            <h2 class="category__title section-title">
               Sound. Vision.
               <br>
               it’s your pick.
             </h2>
-            <article class=category>
+            <article class=category__block>
               <div class=category__images>
                 <img class=category__photo src=speaker-left.7a6bba51.png alt=speaker>
                 <img class=category__photo src=speaker-right.102573b0.png alt=speaker>
               </div>
-              <h3 class=category__title>Portable speakers</h3>
+              <h3 class=category__titles>Portable speakers</h3>
             </article>
-            <article class=category>
+            <article class=category__block>
               <div class=category__images>
                 <img class=category__photo src=earphones-left.30a9af94.png alt=earphones>
                 <img class=category__photo src=earphones-right.49b5c708.png alt=earphones>
               </div>
-              <h3 class=category__title>Earphones</h3>
+              <h3 class=category__titles>Earphones</h3>
             </article>
-            <article class=category>
+            <article class=category__block>
               <div class=category__images>
                 <img class=category__photo src=smart-left.4ac47646.png alt=smarl>
                 <img class=category__photo src=smarl-right.10345f56.png alt=smarl>
               </div>
-              <h3 class=category__title>Smart Home</h3>
+              <h3 class=category__titles>Smart Home</h3>
             </article>
             <a class=category__button>View all</a>
           </section>
@@ -159,12 +159,12 @@
             <h2 class=section-title>Contact us</h2>
             <div class=contacts__container>
               <div class=contacts__data>
-                <div class=contacts__inputs>
+                <form action=http://localhost:1234 method=post class=contacts__inputs onsubmit="this.reset(); return false;">
                   <input class=contacts__input name=name placeholder=Name>
                   <input class=contacts__input type=email name=email placeholder=Email>
                   <textarea class="contacts__input contacts__input--max" name=message placeholder=Message></textarea>
-                </div>
-                <button class=contacts__button>Send</button>
+                  <button class=contacts__button>Send</button>
+                </form>
               </div>
               <div class=contacts__info>
                 <div class=contacts__section>
@@ -185,7 +185,7 @@
                   <p class="contacts__description contacts__description--name">
                     Address
                   </p>
-                  <a href=https://maps.app.goo.gl/qBHEUBhk69adr8X8A class=contacts__description>
+                  <a target=_blank href=https://maps.app.goo.gl/qBHEUBhk69adr8X8A class=contacts__description>
                     400 first ave.
                     <br>
                     suite 700
